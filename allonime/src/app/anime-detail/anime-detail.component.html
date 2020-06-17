@@ -1,0 +1,41 @@
+<div class="container">
+    <div>
+        <div>
+            <h1>{{ anime.name }}</h1>
+        </div>
+        <div>
+            Notes : 10/10
+        </div>
+        <div>
+            <img src="" alt="{{ anime.name }}">
+            <div>
+                Synopsis
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil perspiciatis nesciunt expedita
+                nemo,
+                consectetur, cum ea tenetur ex fugit deserunt officiis eligendi quis minima impedit ipsa blanditiis
+                molestias inventore.
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active">Openings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Endings</a>
+            </li>
+        </ul>
+        <ul id="anime-openings" *ngIf="anime.openings.length">
+            <li *ngFor="let opening of anime.openings">
+                {{ opening.artiste }} - {{ opening.nom_musique }}
+            </li>
+        </ul>
+        <ul id="anime-endings" *ngIf="anime.endings.length">
+            <li *ngFor="let ending of anime.endings">
+                {{ ending.artiste }} - {{ ending.nom_musique }}
+            </li>
+        </ul>
+    </div>
+</div>

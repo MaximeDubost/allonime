@@ -1,1 +1,12 @@
-<p>anime works!</p>
+<div class="container">
+    <h1 class="text-center">Liste des animes</h1>
+    <div *ngIf="animes">
+        <div class="row">
+            <div *ngFor="let anime of animes" class="col grid-anime">
+                <a routerLink="/detail/{{ anime.id }}"><img class="imageAnime" src="{{anime.image}}"
+                        alt="{{anime.name}}" /></a><br />
+                <a routerLink="/detail/{{ anime.id }}" class="anime-name">{{ anime.name }}</a>
+            </div>
+        </div>
+    </div>
+</div>
