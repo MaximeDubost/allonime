@@ -8,22 +8,166 @@ import { Anime } from './anime';
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     let animes = [
-      { id: 1, name: "Btoom", image: "../../assets/img/btooom.png" },
-      { id: 2, name: "Code Geass", image: "../../assets/img/code_geass.png" },
-      { id: 3, name: "Death Note", image: "../../assets/img/death_note.png" },
-      { id: 4, name: "Kimetsu No Yaiba", image: "../../assets/img/demon_slayer.png" },
-      { id: 5, name: "Full Metal Alchimist Brotherhood", image: "../../assets/img/fmab.png" },
-      { id: 6, name: "GTO", image: "../../assets/img/gto.png" },
-      { id: 7, name: "Hajime No Ippo", image: "../../assets/img/hni.png" },
-      { id: 8, name: "Hunter X Hunter", image: "../../assets/img/hxh.png" },
-      { id: 9, name: "Jojo Bizarre Adventure", image: "../../assets/img/jojo.png" },
-      { id: 10, name: "Boku No Hero Academia", image: "../../assets/img/mha.png" },
-      { id: 11, name: "Naruto", image: "../../assets/img/naruto.png" },
-      { id: 12, name: "One Piece", image: "../../assets/img/one_piece.png" },
-      { id: 13, name: "One Punch Man", image: "../../assets/img/opm.png" },
-      { id: 14, name: "Shingeki No Kyojin", image: "../../assets/img/snk.png" },
-      { id: 15, name: "Steins Gate", image: "../../assets/img/steins_gate.png" },
-      { id: 16, name: "Vinland Saga", image: "../../assets/img/vinland_saga.png" }
+      {
+        id: 1, name: "Btoom", image: "../../assets/img/btooom.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 2, name: "Code Geass", image: "../../assets/img/code_geass.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 3, name: "Death Note", image: "../../assets/img/death_note.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 4, name: "Kimetsu No Yaiba", image: "../../assets/img/demon_slayer.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 5, name: "Full Metal Alchimist Brotherhood", image: "../../assets/img/fmab.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 6, name: "GTO", image: "../../assets/img/gto.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 7, name: "Hajime No Ippo", image: "../../assets/img/hni.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 8, name: "Hunter X Hunter", image: "../../assets/img/hxh.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 9, name: "Jojo Bizarre Adventure", image: "../../assets/img/jojo.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 10, name: "Boku No Hero Academia", image: "../../assets/img/mha.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 11, name: "Naruto", image: "../../assets/img/naruto.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 12, name: "One Piece", image: "../../assets/img/one_piece.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 13, name: "One Punch Man", image: "../../assets/img/opm.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 14, name: "Shingeki No Kyojin", image: "../../assets/img/snk.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 15, name: "Steins Gate", image: "../../assets/img/steins_gate.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      },
+      {
+        id: 16, name: "Vinland Saga", image: "../../assets/img/vinland_saga.png", openings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+        ],
+        endings: [
+          { artiste: "Nano", nom_musique: "No pain no gain" },
+          { artiste: "Nano", nom_musique: "No pain no gain" }
+        ]
+      }
     ]
     return { animes }
   }

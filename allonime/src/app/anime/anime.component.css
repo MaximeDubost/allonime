@@ -11,3 +11,15 @@
     color: back;
     font-weight: bold;
 }
+
+img {
+    cursor: pointer;
+}
+
+a {
+    color : black;
+}
+
+a:hover {
+    color : blue;
+}
