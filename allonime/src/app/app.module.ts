@@ -9,6 +9,7 @@ import { AnimeComponent } from './anime/anime.component';
 import { OpeningComponent } from './opening/opening.component';
 import { EndingComponent } from './ending/ending.component';
 import { GifComponent } from './gif/gif.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GifComponent } from './gif/gif.component';
     AnimeComponent,
     OpeningComponent,
     EndingComponent,
-    GifComponent
+    GifComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
