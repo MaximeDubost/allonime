@@ -1,1 +1,16 @@
-<p>gif works!</p>
+<div class="container">
+
+    <div class="row">
+
+      <div class="col" *ngFor="let gif of gifs">
+            <img src={{gif.url}} />
+            <div></div>
+            <div>{{gif.name}}</div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+*
