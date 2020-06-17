@@ -1,0 +1,13 @@
+.imageAnime {
+    height: 300px;
+}
+
+.grid-anime {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.anime-name {
+    color: back;
+    font-weight: bold;
+}

@@ -1,1 +1,11 @@
-<p>anime works!</p>
+<div class="container">
+    <h1 class="text-center">Liste d'animes</h1>
+    <div *ngIf="animes">
+        <div class="row">
+            <div *ngFor="let anime of animes" class="col grid-anime">
+                <img class="imageAnime" src="{{anime.image}}" alt="{{anime.name}}" /><br />
+                <span class="anime-name">{{ anime.name }}</span>
+            </div>
+        </div>
+    </div>
+</div>
