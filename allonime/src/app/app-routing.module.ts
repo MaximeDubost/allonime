@@ -7,7 +7,7 @@ import { AnimeComponent } from './anime/anime.component';
 import { AnimeDetailComponent } from './anime-detail/anime-detail.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/anime', pathMatch: 'full' },
   { path: 'anime', component: AnimeComponent },
   { path: 'detail/:id', component: AnimeDetailComponent },
   { path: 'opening', component: OpeningComponent },
