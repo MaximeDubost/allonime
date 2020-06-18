@@ -26,7 +26,7 @@ import { AnimeDetailComponent } from './anime-detail/anime-detail.component';
     EndingComponent,
     GifComponent,
     FooterComponent,
-    AnimeDetailComponent
+    AnimeDetailComponent,
   ],
   imports: [
     BrowserModule,
