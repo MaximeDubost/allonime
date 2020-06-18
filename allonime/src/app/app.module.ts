@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api"
 import { InMemoryDataService } from "./in-memory-data.service"
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,6 +32,7 @@ import { AnimeDetailComponent } from './anime-detail/anime-detail.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    YouTubePlayerModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.

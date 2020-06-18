@@ -11,17 +11,17 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1, name: "Btoom", image: "../../assets/img/btooom.png", openings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+
         ],
         endings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "No pain no gain" }
+
         ]
       },
       {
         id: 2, name: "Code Geass", image: "../../assets/img/code_geass.png", openings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+
         ],
         endings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
@@ -31,27 +31,27 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 3, name: "Death Note", image: "../../assets/img/death_note.png", openings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+
         ],
         endings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "No pain no gain" }
+
         ]
       },
       {
         id: 4, name: "Kimetsu No Yaiba", image: "../../assets/img/demon_slayer.png", openings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+
         ],
         endings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "No pain no gain" }
+
         ]
       },
       {
         id: 5, name: "Full Metal Alchimist Brotherhood", image: "../../assets/img/fmab.png", openings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },
-          { artiste: "Nano", nom_musique: "Je ne sais plus" }
+
         ],
         endings: [
           { artiste: "Nano", nom_musique: "No pain no gain" },

@@ -1,15 +1,10 @@
-$(document).ready(() => {
-    $(".nav-item").click(() => {
-        console.log(this)
-        $("nav-item a").removeClass("active")
-        $(this).addClass("active")
+$(document).ready(function () {
+    $(".opening").click(() => {
+        $("#anime-openings").show();
+        $("#anime-endings").hide();
     })
-
-    $("#anime-openings").click(() => {
-        if ($(".nav-item a").hasClass("active")) {
-            $("#anime-openings").show()
-        } else {
-            $("#anime-openings").hide()
-        }
+    $(".ending").click(() => {
+        $("#anime-openings").hide();
+        $("#anime-endings").show();
     })
 })
