@@ -3,6 +3,7 @@ export class Anime {
     name: string
     image: string
     synopsis: string
+    rate: string 
     openings: [{}]
     endings: [{}]
 }

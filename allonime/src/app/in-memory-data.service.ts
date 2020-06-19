@@ -11,6 +11,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1,
         name: "Btooom!",
+        rate: "7.45/10",
         image: "../../assets/img/btooom.png",
         openings:
           [
@@ -41,6 +42,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 2,
         name: "Code Geass",
+        rate: "8.73/10",
         image: "../../assets/img/code_geass.png",
         synopsis: "Le 10 juin 2010 du calendrier impérial, le Nouvel Empire de Britannia a écrasé les forces japonaises et a conquis le pays en moins d'un mois grâce à ses mechas nommés Knightmare. Le Japon a perdu sa liberté et a été renommé Zone 11 tandis que les japonais ont perdu leur identité et sont appelés 'Elevens'. Ces derniers sont forcés de vivre dans des ghettos tandis que les colons britanniens occupent la majeure partie du territoire. Pourtant, des mouvements rebelles naissent et les nationalistes japonais continuent la lutte pour l'indépendance. Un jeune homme nommé Lelouch s'est juré de détruire l'empire de Britannia depuis que son père, l'empereur lui-même, n'a rien fait pour pourchasser les terroristes qui ont tué sa mère et estropié sa jeune sœur. Sept ans plus tard, lors d'une altercation entre les deux camps, il rencontre un groupe de rebelles Elevens qui ont volé un secret militaire : une mystérieuse jeune fille. En entrant en contact avec elle, Lelouch obtient le Geass, un pouvoir qui lui permet de contrôler la pensée de toutes les personnes qui croisent son regard, mais qui ne fonctionne qu'une seule fois sur chacune d'elles. Grâce à ce pouvoir, Lelouch va pouvoir mener le combat qu'il a toujours voulu contre Brittania et poursuivre ses deux rêves : venger sa mère et créer un monde où sa sœur pourra vivre en paix.",
         openings:
@@ -107,6 +109,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 3,
         name: "Death Note",
+        rate: "8.73/10",
         image: "../../assets/img/death_note.png",
         synopsis : "Light Yagami, un jeune étudiant surdoué, ramasse un jour le \"Death Note\", un carnet tenu auparavant par un shinigami (Dieu de la mort), Ryuk, qui apparemment s'ennuyait dans son monde. Il suffit d'écrire le nom d'une personne dans ce carnet, et celle-ci meurt (selon certaines conditions que le shinigami expliquera à Light lors de leur rencontre). C'est ainsi qu'avec le \"Death Note\" entre les mains, Light décide de débarrasser la planète de tous les criminels pour en faire un monde juste, un monde parfait.Cependant, qui est-il pour juger les gens ? Il devient donc le pire criminel recherché de toute la planète...",
         openings:
@@ -147,7 +150,7 @@ export class InMemoryDataService implements InMemoryDbService {
           ]
       },
       {
-        id: 4, name: "Kimetsu No Yaiba", image: "../../assets/img/demon_slayer.png", openings: [
+        id: 4, name: "Kimetsu No Yaiba", rate: "8.76/10", image: "../../assets/img/demon_slayer.png", openings: [
           { artiste: "LiSA", nom_musique: "Gurenge", code_musique: "pmanD_s7G3U" }
         ],
         endings: [
@@ -158,6 +161,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 5,
         name: "Full Metal Alchimist Brotherhood",
+        rate : "9.23/10",
         image: "../../assets/img/fmab.png",
         openings:
           [
@@ -230,6 +234,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 6,
         name: "GTO",
+        rate: "8.89/10",
         image: "../../assets/img/gto.png",
         openings:
           [
@@ -264,7 +269,7 @@ export class InMemoryDataService implements InMemoryDbService {
           synopsis : "Ancien voyou, chef de gang, Eikichi Onizuka décide un jour de devenir prof. Sa vocation n'a rien de pédagogique. Ce qu'il veut, c'est pouvoir sortir avec les étudiantes du lycée où il travaille. Pourtant, au fil des chapitres, on se rend compte que le sens de la justice et de l'honneur de notre héros vont l'amener à devenir un véritable enseignant. Cette série de Tôru Fujisawa a connu un tel succès au Japon qu'elle fut adaptée en feuilleton \"live\" à la télé et au cinéma. Drôle et \"vrai\", plein de rebondissements et doté d'une psychologie rare dans ce domaine, GTO met en scène des adolescents en quête d'identité comme il en existe partout.",
       },
       {
-        id: 7, name: "Hajime No Ippo", image: "../../assets/img/hni.png", openings: [
+        id: 7, name: "Hajime No Ippo", rate: "8.77/10",image: "../../assets/img/hni.png", openings: [
           { artiste: "Shocking Lemons", nom_musique: "Under Star", code_musique: "9S50a4rStNA" },
           { artiste: "Shocking Lemons", nom_musique: "Inner Light", code_musique: "NI4OwLYF1pM" },
           { artiste: "Tsuneo Imahori", nom_musique: "Tumbling Dice", code_musique: "GM_6OTP6XPQ" }
@@ -277,7 +282,7 @@ export class InMemoryDataService implements InMemoryDbService {
         synopsis: "Ippo Makunouchi est un jeune garçon de 16 ans tout ce qu'il y a de plus ordinaire. Il passe son temps libre à aider sa mère à tenir son affaire de pêche, de ce fait il n'a pas d'amis. Un jour, alors qu'il se fait maltraiter par une bande de jeunes plus âgés que lui, Takamura, un des plus grands boxeurs lui vient en aide et l'emmène dans son club de boxe pour le soigner.Une fois remis sur pieds, Ippo s'essaye à la boxe suite à une proposition de Takamura et il se révèle posséder une force incroyable. Takamura, subjugué par la force du jeune garçon lui propose de venir s'entraîner dans son club. Ippo découvre alors en lui une véritable passion pour la boxe. De plus, il est extrêmement heureux d'être aux cotés de Takamura qu'il voit comme son modèle. C'est alors le début d'une longue aventure semée d'embûches pour le jeune Ippo."
       },
       {
-        id: 8, name: "Hunter X Hunter", image: "../../assets/img/hxh.png", openings: [
+        id: 8, name: "Hunter X Hunter", rate : "8.43/10", image: "../../assets/img/hxh.png", openings: [
           { artiste: "Ono Masatoshi", nom_musique: "Departure!", code_musique: "faqmNf_fZlE" }
         ],
         endings: [
@@ -294,6 +299,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 9,
         name: "Jojo's Bizarre Adventure",
+        rate : "8.21/10",
         image: "../../assets/img/jojo.png",
         openings:
           [
@@ -426,6 +432,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 10,
         name: "Boku No Hero Academia",
+        rate : "8.26/10",
         image: "../../assets/img/mha.png",
         openings:
           [
@@ -508,7 +515,7 @@ export class InMemoryDataService implements InMemoryDbService {
           synopsis : "Dans un futur proche suite à une mutation génétique, 80% de la population mondiale possède des super-pouvoirs appelés \"Alters\". Les super-héros protègent la population mondiale face aux super-vilains qui utilisent leur Alter à des fins maléfiques. Le plus célèbre des super-héro se nomme All Might. Izuku Midoriya en est fan, et rêve d'intégrer la filière super-héroïque du lycée Yuei pour suivre les traces de son idole ainsi devenir le plus grand des super-héros. Malheureusement, Izuku ne possède pas de pouvoir."
       },
       {
-        id: 11, name: "Naruto", image: "../../assets/img/naruto.png", openings: [
+        id: 11, name: "Naruto", rate: "7.88/10", image: "../../assets/img/naruto.png", openings: [
           { artiste: "Hound Dog", nom_musique: "R★O★C★K★", code_musique: "4t__wczfpRI" },
           { artiste: "Asian Kung-fu Generation", nom_musique: "Haruka Kanata", code_musique: "SRn99oN1p_c" },
           { artiste: "Little by little", nom_musique: "Kanashimi wo Yasashisa ni", code_musique: "XwJEFzsqNoY" },
@@ -533,7 +540,7 @@ export class InMemoryDataService implements InMemoryDbService {
         ], synopsis : "Dans le village de Konoha vit Naruto, un jeune garçon détesté et craint des villageois. Il est craint du fait qu'il détient en lui Kyuubi (démon renard à neuf queues) d'une incroyable force, qui a tué un grand nombre de personnes. Le ninja le plus puissant de Konoha à l'époque, le quatrième Hokage, Minato Namikaze, réussit à sceller ce démon dans le corps de Naruto. Malheureusement il y laissa la vie. C'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur. Mais la route pour devenir Hokage est très longue et Naruto sera confronté à un bon nombre d'épreuves et devra affronter de nombreux ennemis pour atteindre son but !"
       },
       {
-        id: 12, name: "One Piece", image: "../../assets/img/one_piece.png", openings: [
+        id: 12, name: "One Piece", rate:"8.48/10", image: "../../assets/img/one_piece.png", openings: [
           { artiste: "Hiroshi Kitadani", nom_musique: "We Are! (eps 1-47)", code_musique: "107yRkr2qNo" },
           { artiste: "Folder5", nom_musique: "Believe (eps 48-115)", code_musique: "2U3o7AdHcEY" },
           { artiste: "Hikari E", nom_musique: "The Babystars (eps 116-168)", code_musique: "xpl6KQVHTeM" },
@@ -584,6 +591,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 13,
         name: "One Punch Man",
+        rate: "8.64/10",
         image: "../../assets/img/opm.png",
         openings: [],
         endings: [],
@@ -592,6 +600,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 14,
         name: "Shingeki No Kyojin",
+        rate: "8.44/10",
         image: "../../assets/img/snk.png",
         openings:
           [
@@ -662,7 +671,7 @@ export class InMemoryDataService implements InMemoryDbService {
           synopsis : "Il y a 107 ans, les Titans ont presque exterminé la race humaine. Ces Titans mesurent principalement une dizaine de mètres et ils se nourrissent d'humains. Les humains ayant survécus à cette extermination ont construit une cité fortifiée avec des murs d'enceinte de 50 mètres de haut pour pouvoir se protéger des Titans. Pendant 100 ans les humains ont connu la paix. Eren est un jeune garçon qui rêve de sortir de la ville pour explorer le monde extérieur. Il mène une vie paisible avec ses parents et sa sœur Mikasa dans le district de Shiganshina. Mais un jour de l'année 845, un Titan de plus de 60 mètres de haut apparaît. Il démolit une partie du mur du district de Shiganshina et provoque une invasion de Titans. Eren verra sa mère se faire dévorer sous ses yeux sans rien pouvoir faire. Il décidera après ces événements traumatisants de s'engager dans les forces militaires de la ville avec pour but d'exterminer tous les Titans qui existent."
       },
       {
-        id: 15, name: "Steins Gate", image: "../../assets/img/steins_gate.png", openings: [
+        id: 15, name: "Steins Gate", rate: "9.13/10", image: "../../assets/img/steins_gate.png", openings: [
           { artiste: "Kanako Itou", nom_musique: "Hacking to the Gate", code_musique: "dd7BILZcYAY" }
         ],
         endings: [
@@ -674,7 +683,7 @@ export class InMemoryDataService implements InMemoryDbService {
         synopsis : "Dans un quartier d'Otaku à Akihabara, un groupe d'amis modifient leurs micro-ondes de manière à en faire un dispositif qui leur permet d'envoyer des messages écrits vers le passé. Une organisation, CERN, a mené différentes recherches à propos des voyages temporels. À présent, le groupe, ayant effectué plusieurs expériences diverses, doit absolument éviter de se faire capturer par cette organisation qui les perturbent en les traquant..."
       },
       {
-        id: 16, name: "Vinland Saga", image: "../../assets/img/vinland_saga.png", openings: [
+        id: 16, name: "Vinland Saga", rate: "8.76/10", image: "../../assets/img/vinland_saga.png", openings: [
           { artiste: "Survive Said The Prophet", nom_musique: "MUKANJYO", code_musique: "xEVcTStgA4A" },
           { artiste: "MAN WITH A MISSION", nom_musique: "Dark Crow", code_musique: "2e1t5VM9jTk" }
         ],
