@@ -5,7 +5,7 @@ body {
 
 a.navbar-brand {
     float: left;
-    height: 50px;
+    /*height: 50px;*/
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px;
@@ -13,8 +13,22 @@ a.navbar-brand {
     color: orangered;
     font-family: cursive;
     font-weight: 700;
-
+    position: relative;
 }
+
+a.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: #404040;
+}
+
+/*ul.nav-list {
+    background-color: #ffc107;
+}*/
 
 nav.main-navigation {
     position: relative;
@@ -35,15 +49,7 @@ nav.main-navigation ul.nav-list {
     margin-top: 15px;
 }
 
-a.nav-link {
-    text-decoration: none;
-    font-size: 18px;
-    font-family: sans-serif;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-    color: #404040;
-}
+
 
 @keyframes FadeIn {
     0% {
