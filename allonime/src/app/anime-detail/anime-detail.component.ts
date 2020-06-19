@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Anime } from '../anime';
 import { AnimeService } from '../anime.service';
 import { ActivatedRoute } from '@angular/router';
+import videoLauncher from './videoLauncher';
 
 @Component({
   selector: 'app-anime-detail',
@@ -13,7 +14,8 @@ export class AnimeDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute, private animeService: AnimeService) { }
 
   ngOnInit(): void {
-    this.getAnimeDetail()
+    videoLauncher.launch();
+    this.getAnimeDetail();
   }
 
   getAnimeDetail(): void {
