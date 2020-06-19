@@ -1,13 +1,19 @@
-<nav class="main-navigation">
-    <ul class="nav-list">
-        <div class="navbar-header animated fadeInUp">
-            <h2> <a class="navbar-brand" routerLink="/anime">Allonime</a></h2>
-        </div>
-        <li class="nav-list-item">
-            <a class="nav-link" routerLink="/anime">Anime</a>
-        </li>
-        <li class="nav-list-item">
-            <a class="nav-link" routerLink="/gif">GIF</a>
-        </li>
-    </ul>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light "
+    style="background-color: #FECC00; margin-bottom: 4%; padding-left: 20%;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">ALLONIME</a>
+
+    <div class="form-inline my-2 my-lg-0" id="" style="padding-left: 53%; text-align: left;">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item" id="anime">
+                <a class="nav-link" [routerLink]="['/anime']" routerLinkActive="router-link-active">Anime </a>
+            </li>
+            <li class="nav-item active" id="gif">
+                <a class="nav-link" [routerLink]="['/gif']" routerLinkActive="router-link-active">GIF</a>
+            </li>
+        </ul>
+    </div>
 </nav>

@@ -5,13 +5,13 @@ body {
 
 a.navbar-brand {
     float: left;
-    /*height: 50px;*/
-    padding: 15px 15px;
-    font-size: 18px;
+    margin: auto 0;
+    padding: 32px 30px;
+    font-size: 26px;
     line-height: 20px;
     text-decoration: none;
-    color: orangered;
-    font-family: cursive;
+    color: black;
+    font-family: 'ROBOTO';
     font-weight: 700;
     position: relative;
 }
@@ -26,9 +26,9 @@ a.nav-link {
     color: #404040;
 }
 
-/*ul.nav-list {
-    background-color: #ffc107;
-}*/
+ul.nav-list {
+    background-color: #FECC00;
+}
 
 nav.main-navigation {
     position: relative;
@@ -49,8 +49,6 @@ nav.main-navigation ul.nav-list {
     margin-top: 15px;
 }
 
-
-
 @keyframes FadeIn {
     0% {
         opacity: 0;
@@ -60,8 +58,6 @@ nav.main-navigation ul.nav-list {
         -ms-transform: translateY(-10px);
         transform: translateY(-10px);
     }
-
-
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -103,7 +99,6 @@ nav.main-navigation ul.nav-list {
     from {
         transform: translate3d(0, 40px, 0)
     }
-
     to {
         transform: translate3d(0, 0, 0);
         opacity: 1
@@ -114,7 +109,6 @@ nav.main-navigation ul.nav-list {
     from {
         transform: translate3d(0, 40px, 0)
     }
-
     to {
         transform: translate3d(0, 0, 0);
         opacity: 1

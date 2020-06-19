@@ -1,5 +1,5 @@
 let videoLauncher = {};
-videoLauncher.launch = () => {
+videoLauncher.tabSwitchingSystm = () => {
     $(document).ready(function () {
         $(".opening").click(() => {
             $("#anime-openings").show();
