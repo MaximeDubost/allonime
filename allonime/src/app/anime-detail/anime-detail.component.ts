@@ -14,7 +14,7 @@ export class AnimeDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute, private animeService: AnimeService) { }
 
   ngOnInit(): void {
-    videoLauncher.launch();
+    videoLauncher.tabSwitchingSystm();
     this.getAnimeDetail();
   }
 
