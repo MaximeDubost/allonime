@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EndingComponent } from './ending.component';
+import { SearchAnimeComponent } from './search-anime.component';
 
-describe('EndingComponent', () => {
-  let component: EndingComponent;
-  let fixture: ComponentFixture<EndingComponent>;
+describe('SearchAnimeComponent', () => {
+  let component: SearchAnimeComponent;
+  let fixture: ComponentFixture<SearchAnimeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EndingComponent ]
+      declarations: [ SearchAnimeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EndingComponent);
+    fixture = TestBed.createComponent(SearchAnimeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

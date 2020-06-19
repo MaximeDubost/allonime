@@ -1,0 +1,9 @@
+<input #inputAnime id="input-anime" type="text" placeholder="Entrez le nom de l'anime..."
+    (input)="searchAnime(inputAnime.value)">
+<div>
+    <li *ngFor="let anime of animes$ | async">
+        <a (click)="clear()" routerLink="detail/{{anime.id}}">
+            {{anime.name}}
+        </a>
+    </li>
+</div>
