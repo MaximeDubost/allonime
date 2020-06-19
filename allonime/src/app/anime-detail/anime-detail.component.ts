@@ -20,9 +20,8 @@ export class AnimeDetailComponent implements OnInit, OnChanges {
   }
 
   ngOnInit(): void {
+    videoLauncher.tabSwitchingSystm();
     this.getAnimeDetail();
-    videoLauncher.launch();
-    console.log("On ngOnInit")
   }
 
   getAnimeDetail(): void {
