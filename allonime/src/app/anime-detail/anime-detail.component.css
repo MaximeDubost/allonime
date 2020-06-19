@@ -5,3 +5,7 @@ img {
     width: auto;
     height: auto;
   }
+
+  .nav-item {
+    cursor: pointer;
+  }
