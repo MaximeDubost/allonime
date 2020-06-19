@@ -6,17 +6,32 @@
         <div>
             Notes : 10/10
         </div>
+        <br>
         <div>
-            <img src="" alt="{{ anime.name }}">
-            <div>
-                Synopsis
+            <div class="container">
+                <div class="row">
+                    <div class="col">
 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil perspiciatis nesciunt expedita
-                nemo,
-                consectetur, cum ea tenetur ex fugit deserunt officiis eligendi quis minima impedit ipsa blanditiis
-                molestias inventore.
+                        <img src={{anime.image}} alt="{{ anime.name }}">
+                    </div>
+                    <div class="col">
+                        <div>
+                            Synopsis
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nihil perspiciatis nesciunt
+                            expedita
+                            nemo,
+                            consectetur, cum ea tenetur ex fugit deserunt officiis eligendi quis minima impedit ipsa
+                            blanditiis
+                            molestias inventore.
+                        </div>
+                    </div>
+
+                </div>
             </div>
+            <br><br>
         </div>
+        <br><br>
     </div>
     <div>
         <ul class="nav nav-tabs">
@@ -29,20 +44,33 @@
         </ul>
 
         <ul id="anime-openings" *ngIf="anime.openings.length" style="display: none;">
-            <li *ngFor="let opening of anime.openings">
-              <!--{{ opening.artiste }} - {{ opening.nom_musique }} -->
-              <youtube-player 
-                    videoId="GYAB4Td62zI" 
-                    suggestedQuality="highres" 
-                    [height]="250" 
-                    [width]="500" 
-                >
-                </youtube-player>
+            <li *ngFor="let opening of anime.openings" style="list-style: none;">
+                <div class="col">
+                    <div>
+                        {{ opening.artiste }} - {{ opening.nom_musique }}
+                    </div>
+                    <div>
+                        <youtube-player videoId={{opening.code_musique}} suggestedQuality="highres" [height]="250"
+                            [width]="500">
+                        </youtube-player>
+                    </div>
+                </div>
+                <br><br>
             </li>
         </ul>
         <ul id="anime-endings" *ngIf="anime.endings.length" style="display: none;">
-            <li *ngFor="let ending of anime.endings">  
-                {{ ending.artiste }} - {{ ending.nom_musique }}  
+            <li *ngFor="let ending of anime.endings" style="list-style: none;">
+                <div class="col">
+                    <div>
+                        {{ ending.artiste }} - {{ ending.nom_musique }}
+                    </div>
+                    <div>
+                        <youtube-player videoId={{ending.code_musique}} suggestedQuality="highres" [height]="250"
+                            [width]="500">
+                        </youtube-player>
+                    </div>
+                </div>
+                <br><br>
             </li>
         </ul>
     </div>

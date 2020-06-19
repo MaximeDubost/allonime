@@ -7,8 +7,9 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://www.youtube.com/iframe_api"></script>
   <script src="./assets/js/script.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
@@ -17,3 +18,20 @@
 </body>
 
 </html>
+
+<script>
+
+$(document).ready(function () {
+    console.log("mashalah")
+    $(".opening").click(() => {
+        console.log('jai clic')
+        $("#anime-openings").show();
+        $("#anime-endings").hide();
+    })
+    $(".ending").click(() => {
+        $("#anime-openings").hide();
+        $("#anime-endings").show();
+    })
+})
+
+</script>
