@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    console.log("mashalah")
     $(".opening").click(() => {
         console.log('jai clic')
         $("#anime-openings").show();
